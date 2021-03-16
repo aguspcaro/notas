@@ -10,6 +10,7 @@ body {
 	background: #868BAF;
 	font-family: 'Syne Mono', monospace;
 	font-size: 16px;
+	padding: 1.5em;
 
 }
  
@@ -18,11 +19,16 @@ body {
 	max-width: 800px;
 	width: 90%;
 }
+
+.principal {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
  
 .principal {
 	background: #8587AD;
 	border-top: 20px solid #8485AC;
-	border-bottom: 5px solid;
 	color: #fff;
 	padding: 50px 0;
 	width: 100%;
@@ -59,8 +65,35 @@ body {
 .principal .formulario .boton:hover {
 	border: 1px solid #fff;
 }
+
+.padreMedio {
+	width: 100%;
+
+}
+
+/* - Columnas - */
+
+
+.columna {
+	background-color: rgb(221, 221, 221);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	height: 700px;
+}
+.columna {
+	margin: 1em;
+	border-radius: 10px;
+	color: black;
+}
+
  
 /* - Tareas - */
+.tareas {
+	border-bottom: 5px solid;
+
+}
 .tareas .lista {
 	list-style: none;
 }
