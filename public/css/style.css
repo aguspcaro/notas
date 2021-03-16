@@ -7,9 +7,10 @@
 }
  
 body {
-	background: #FAFAFA;
-	font-family: arial, helvetica, sans-serif;
+	background: #868BAF;
+	font-family: 'Syne Mono', monospace;
 	font-size: 16px;
+
 }
  
 .wrap {
@@ -19,8 +20,9 @@ body {
 }
  
 .principal {
-	background: #F44336;
-	border-top: 20px solid #D32F2F;
+	background: #8587AD;
+	border-top: 20px solid #8485AC;
+	border-bottom: 5px solid;
 	color: #fff;
 	padding: 50px 0;
 	width: 100%;
@@ -35,20 +37,23 @@ body {
 	margin-bottom: 20px;
 	padding: 10px;
 	width: 100%;
+	border-radius: 5px;
+
 }
  
 .principal .formulario input[type=text].error {
-	border: 5px solid #D32F2F;
+	border: 5px solid red;
 	color: red;
 }
  
 .principal .formulario .boton {
 	background: none;
-	border: 1px solid #D32F2F;
+	border: 1px solid white;
 	color: #fff;
 	display: inline-block;
 	font-size: 16px;
 	padding: 15px;
+	border-radius: 10px;
 }
  
 .principal .formulario .boton:hover {
